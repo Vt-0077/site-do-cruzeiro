@@ -1,0 +1,236 @@
+body	{
+			color: #333333;
+			font-family: "Lucida	Sans	Unicode",	"Lucida	Grande",	sans-serif;
+			margin-left:	auto;
+			margin-right:	auto;
+			width: 940px;
+
+}
+#titulo{
+		color:	rgb(213, 219, 233);
+		text-align: center; 
+        background-image: url(../img/cruzeiro-do-sul.jpg);
+			padding: 10px;
+}
+h3{
+	text-align: center; 
+}
+p{
+	
+	text-align: justify; 
+}
+h2{
+	border-bottom: 2px	solid #333333;
+			margin-top: 30px; 
+}
+#escudo-palestra	{
+float:	right;
+margin: 0 0 10px 10px;
+background-color:rgb( 199, 212, 234);
+border: 1px	solid #ccc;
+text-align:	center;
+padding: 8px;
+margin: 10px;
+}
+
+figcaption	{
+font-style:	italic;
+margin-top: 10px;
+text-align: center; 
+	}
+	
+	figure	{
+			background-color:rgb( 72, 129, 231);
+			border: 1px	solid #ccc;
+			text-align:	center;
+			padding: 8px;
+			margin: 10px;
+	}
+	
+#primeiro-time	{
+float:	right;
+margin: 0 0 10px 10px;
+background-color:rgb( 199, 212, 234);
+border: 1px	solid #ccc;
+text-align:	center;
+padding: 8px;
+margin: 10px;
+}
+#escudo-cruzeiro	{
+float:	right;
+margin: 0 0 10px 10px;
+background-color: rgb( 199, 212, 234);
+border: 1px	solid #ccc;
+text-align:	center;
+padding: 8px;
+margin: 10px;
+}
+#estadio-cruzeiro	{
+float:	right;
+margin: 0 0 10px 10px;
+background-color:rgb( 199, 212, 234);
+border: 1px	solid #ccc;
+text-align:	center;
+padding: 8px;
+margin: 10px;
+}
+#estadio-mineirao	{
+float:	right;
+margin: 0 0 10px 10px;
+background-color:rgb( 199, 212, 234);
+border: 1px	solid #ccc;
+text-align:	center;
+padding: 8px;
+margin: 10px;
+}
+#time-1971	{
+float:	right;
+margin: 0 0 10px 10px;
+background-color:rgb( 199, 212, 234);
+border: 1px	solid #ccc;
+text-align:	center;
+padding: 8px;
+margin: 10px;
+}
+#fabio	{
+float:	right;
+margin: 0 0 10px 10px;
+background-color:rgb( 199, 212, 234);
+border: 1px	solid #ccc;
+text-align:	center;
+padding: 8px;
+margin: 10px;
+}
+#time-2013{
+float:	right;
+margin: 0 0 10px 10px;
+background-color:rgb( 199, 212, 234);
+border: 1px	solid #ccc;
+text-align:	center;
+padding: 8px;
+margin: 10px;
+}
+#ronaldo	{
+float:	right;
+margin: 0 0 10px 10px;
+background-color:rgb( 199, 212, 234);
+border: 1px	solid #ccc;
+text-align:	center;
+padding: 8px;
+margin: 10px;
+}
+#camisa	{
+float:	right;
+margin: 0 0 10px 10px;
+background-color:rgb( 199, 212, 234);
+border: 1px	solid #ccc;
+text-align:	center;
+padding: 8px;
+margin: 10px;
+}
+#toronto	{
+float:	right;
+margin: 0 0 10px 10px;
+background-color:rgb( 199, 212, 234);
+border: 1px	solid #ccc;
+text-align:	center;
+padding: 8px;
+margin: 10px;
+}
+#mafia-azul	{
+float:	right;
+margin: 0 0 10px 10px;
+background-color:rgb( 199, 212, 234);
+border: 1px	solid #ccc;
+text-align:	center;
+padding: 8px;
+margin: 10px;
+}
+#time-de-90	{
+float:	right;
+margin: 0 0 10px 10px;
+background-color:rgb( 199, 212, 234);
+border: 1px	solid #ccc;
+text-align:	center;
+padding: 8px;
+margin: 10px;
+}
+#time-de-66	{
+float:	right;
+margin: 0 0 10px 10px;
+background-color:rgb( 199, 212, 234);
+border: 1px	solid #ccc;
+text-align:	center;
+padding: 8px;
+margin: 10px;
+}
+
+* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos do Cabeçalho */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Define um limite máximo para a largura */
+    margin: 0 auto; /* Centraliza a área do cabeçalho */
+    padding: 10px 20px; /* Espaçamento interno */
+}
+
+#topo {
+    display: flex;
+    flex-direction: column; /* Coloca logo, título e menu em uma coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    background-color: #003A70; /* Azul escuro do Cruzeiro */
+    padding: 20px 0;
+    border-bottom: 2px solid #00A3E0; /* Linha azul clara abaixo do cabeçalho */
+}
+
+.logo img {
+    height: 60px; /* Ajuste o tamanho da logo */
+}
+
+.titulo {
+    color: white; /* Cor do título */
+    font-size: 28px; /* Tamanho da fonte */
+    font-weight: bold;
+    margin: 10px 0; /* Espaçamento acima e abaixo do título */
+    text-align: center; /* Centraliza o título */
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Centraliza os itens do menu */
+}
+
+.menu ul li {
+    margin-left: 30px; /* Espaçamento entre os itens do menu */
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Efeito de hover */
+.menu a:hover {
+    color: #00A3E0; /* Azul claro para o hover */
+}
+a{
+	color: #333333;
+}
+a:hover {
+color: #013CFF; /* Azul claro para o hover */
+}
+

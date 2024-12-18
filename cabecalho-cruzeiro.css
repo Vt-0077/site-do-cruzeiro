@@ -1,0 +1,68 @@
+/* Estilos do Cabeçalho */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Define um limite máximo para a largura */
+    margin: 0 auto; /* Centraliza a área do cabeçalho */
+    padding: 10px 20px; /* Espaçamento interno */
+   
+
+}
+
+#topo {
+    display: flex;
+    flex-direction: column; /* Coloca logo, título e menu em uma coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    background-color: #003A70; /* Azul escuro do Cruzeiro */
+    padding: 20px 0;
+    border-bottom: 2px solid #00A3E0; /* Linha azul clara abaixo do cabeçalho */
+}
+
+.logo img {
+    height: 70px; /* Ajuste o tamanho da logo */
+}
+
+.titulo {
+    color: white; /* Cor do título */
+    font-size: 28px; /* Tamanho da fonte */
+    font-weight: bold;
+    margin: 10px 0; /* Espaçamento acima e abaixo do título */
+    text-align: center; /* Centraliza o título */
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Centraliza os itens do menu */
+}
+
+.menu ul li {
+    margin-left: 30px; /* Espaçamento entre os itens do menu */
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Efeito de hover */
+.menu a:hover {
+    color: #00A3E0; /* Azul claro para o hover */
+}
+p{
+	text-align: justify; 
+	color: white;
+	text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+a{
+	color: white;
+}
+a:hover {
+color: #08C1EA; /* Azul claro para o hover */
+}
